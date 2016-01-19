@@ -27,6 +27,4 @@
 			return $text;
 		}
 	}
-	$markup = new markup();
-	echo $markup->postMarkup(file_get_contents("markup.txt"));
 ?>
